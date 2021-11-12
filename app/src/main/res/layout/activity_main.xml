@@ -60,27 +60,27 @@
       <LinearLayout
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:orientation="vertical">
+          android:orientation="horizontal">
 
             <Button
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
-                android:layout_weight=".25"
+                android:layout_weight="0.25"
                 android:text="20%"
                 tools:ignore="Suspicious0dp" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".50"
+                android:layout_weight="0.50"
                 android:text="50%"
-                tools:ignore="Suspicious0dp"/>
+                tools:ignore="Suspicious0dp" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".25"
+                android:layout_weight="0.25"
                 android:text="25%"
-                tools:ignore="Suspicious0dp"/>
+                tools:ignore="Suspicious0dp" />
       </LinearLayout>
 </LinearLayout>

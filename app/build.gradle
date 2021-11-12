@@ -8,6 +8,9 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0'}
+        }
         applicationId "co.gov.mintic.miciontic.ciclo4"
         minSdkVersion 17
         targetSdkVersion 30
